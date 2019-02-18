@@ -7,13 +7,19 @@ body {
     width: 100%;
 }
 
-.orange_area, .yellow_area, .blue_area, .gray_area {
+.orange_area,
+.yellow_area,
+.blue_area,
+.gray_area {
     width: 100%;
     box-sizing: border-box;
     text-align: justify;
 }
 
-.orange_area:after, .yellow_area:after, .blue_area:after, .gray_area:after {
+.orange_area:after,
+.yellow_area:after,
+.blue_area:after,
+.gray_area:after {
     width: 100%;
     content: '';
     display: inline-block;
@@ -33,14 +39,14 @@ body {
     width: 100%;
 }
 
-.blue_area div{
+.blue_area div {
     height: 25vh;
     background-color: blue;
     display: inline-block;
     width: 32.5%;
 }
 
-.gray_area div{
+.gray_area div {
     height: 20vh;
     background-color: darkgray;
     display: inline-block;
