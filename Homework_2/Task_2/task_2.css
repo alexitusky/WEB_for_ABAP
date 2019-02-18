@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+}
+
+.red_div {
+    position: absolute;
+    background-color: red;
+    width: 30%;
+    height: 60%;
+    z-index: 1;
+    left: 5%;
+    top: 5%;
+}
+
+.green_div {
+    position: absolute;
+    background-color: green;
+    width: 30%;
+    height: 60%;
+    z-index: 3;
+    left: 20%;
+    top: 20%;
+}
+
+.blue_div {
+    position: absolute;
+    background-color: blue;
+    width: 30%;
+    height: 60%;
+    z-index: 2;
+    left: 35%;
+    top: 35%;
+}

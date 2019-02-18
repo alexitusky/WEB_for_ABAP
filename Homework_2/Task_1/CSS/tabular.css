@@ -1,29 +1,28 @@
 body {
-    background-color: black;
+    height: 100%;
 }
 
 table {
     width: 100%;
-    border-spacing: 1vw;
-    margin: -0.6vh;
+    border-spacing: 0.6vw; 
 }
 
-.first-row tr{ 
+.orange_tbl tr{ 
     background-color: orange;
-    height: 10vh;
+    height: 13vh;
 }
 
-.second-row tr{
+.yellow_tbl tr{
     background-color: yellow;
     height: 30vh;
 }
 
-.third-row tr{
+.blue_tbl tr{
     background-color: blue;
     height: 25vh;
 }
 
-.fourth-row tr{
+.darkgray_tbl tr{
     background-color:darkgray;
-    height: 19vh;
+    height: 20vh;
 }
