@@ -1,33 +1,29 @@
-* {
-    margin: 0;
-}
-
 .red_div {
-    position: absolute;
+    position: fixed;
     background-color: red;
-    width: 30%;
-    height: 60%;
+    width: 500px;
+    height: 500px;
     z-index: 1;
-    left: 5%;
-    top: 5%;
+    left: 28%;
+    top: 4%;
 }
 
 .green_div {
-    position: absolute;
-    background-color: green;
-    width: 30%;
-    height: 60%;
+    position: fixed;
+    background-color: #7FFF00;
+    width: 500px;
+    height: 500px;
     z-index: 3;
-    left: 20%;
-    top: 20%;
+    left: 38%;
+    top: 22%;
 }
 
 .blue_div {
-    position: absolute;
+    position: fixed;
     background-color: blue;
-    width: 30%;
-    height: 60%;
+    width: 500px;
+    height: 500px;
     z-index: 2;
-    left: 35%;
-    top: 35%;
+    left: 48%;
+    top: 40%;
 }
